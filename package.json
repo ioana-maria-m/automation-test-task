@@ -1,0 +1,18 @@
+{
+  "name": "todomvcreactpage-automation",
+  "version": "1.0.0",
+  "description": "Automating Todomvc React Page - RedPointsTest",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.4.0"
+  },
+  "devDependencies": {
+    "cypress-plugin-tab": "^1.0.5"
+  },
+  "scripts": {
+    "cy-run-chrome": "cypress run --browser chrome",
+    "cy-run-firefox": "cypress run --browser firefox"
+  },
+  "author": "",
+  "license": "ISC"
+}
